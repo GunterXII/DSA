@@ -1,0 +1,8 @@
+let numero = 73250000;
+
+let giorni = Math.floor(numero / (3600 * 24));
+let ore = Math.floor((numero % (3600 * 24)) / 3600);
+let minuti = Math.floor((numero % 3600) / 60);
+let sec = numero % 60;
+
+console.log(giorni + " giorni", ore + ":" + minuti + ":" + sec);

@@ -1,0 +1,1 @@
+a differenze delle list normali, i nodi hanno una ulteriore proprietà che è la prev, hanno value, prev e next
